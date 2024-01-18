@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <template id="myTemplate">
+        <h2>Hello World</h2>
+        <p>This is a pg</p>
+    </template>
+    
+</body>
+<script>
+    const data={
+        title:"This is a title",
+        description : "This is description"
+    }
+    const template=document.getElementById("myTemplate");
+    const content=template.content.cloneNode(true);
+    content.querySelector("h2").innerHTML=data.title
+    content.querySelector("p").innerHTML=data.description
+    document.body.appendChild(content)
+    
+</script>
+</html>

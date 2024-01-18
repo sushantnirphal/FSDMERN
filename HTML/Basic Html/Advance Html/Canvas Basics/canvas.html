@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Basics</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(2, 28, 20);
+            display: flex;
+            align-items: center;
+            align-content: center;
+            color: black;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        canvas {
+            border-radius: 5px;
+            background-color: rgb(252, 200, 200);
+            width: 80%;
+            height: 80%;
+
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="canvas"></canvas>
+</body>
+<script>
+    const canvas = document.getElementById("canvas")
+    const ctx = canvas.getContext('2d')
+    const width = window.innerWidth;
+
+
+    // // rectangle
+    // ctx.fillStyle="pink"
+    // ctx.fillRect(20,20,150,50)
+
+    // // stroke Rectangle
+    // ctx.linewidth=2
+    // ctx.strokeStyle="orange"
+    // ctx.strokeRect(120,120,80,30)
+
+    //  ctx.linewidth=2
+    //  ctx.strokeStyle="red"
+    //  ctx.strokeRect(60,60,50,50)
+
+    //Fill text
+    //  ctx.font = "30px April";
+    //   ctx.fillStyle = "aqua";
+    //   ctx.fillText("Hey there", 13, 50);
+
+    //   Stroke text
+    // ctx.strokeStyle="purple"
+    // ctx.strokeText("H e l l o w o r l d",100,50)
+
+    // Lines
+    // ctx.moveTo( 50,50);
+    // ctx.lineTo(100, 50);
+    // ctx.lineTo(100, 100);
+    // ctx.lineTo(50, 100);
+    // ctx.closePath();
+
+    // ctx.lineWidth=5;
+    // ctx.strokeStyle = "darkred"
+    // ctx.stroke();
+    // ctx.fillStyle ="palegreen"
+
+    // Circle
+    ctx.beginPath();
+    ctx.arc(60,50,40,0,Math.PI*2)
+    ctx.strokeStyle="darked"
+    ctx.stroke();
+    ctx.fillStyle="palgreen"
+    // ctx.fill();
+
+
+</script>
+
+</html>

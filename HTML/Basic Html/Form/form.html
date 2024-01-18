@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="">
+        <input type="email" name="email" id=""  placeholder="Enter your email" autocomplete="off">
+        <input type="password" name="password" placeholder="Enter your password" >
+        <input type="submit" name="button" id="" value="login">
+
+        <br><br>
+
+        <label for="">What is your age ? </label>
+        <select name="userage" id="" size="1">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+        <br><br>
+        <textarea name="message" id="" cols="30" rows="10" style="width: 100px;height: 100px;max-width: 300px;min-width: 150px;border:1px solid pink;"></textarea>
+        <br><br>
+        <button type="button" onclick="alert('hey there')">Don't Click</button>
+        <br><br>
+
+        <fieldset>
+            <legend>Login</legend>
+            <input type="email" placeholder="enter your email" name="email"> 
+            <input type="password" name="password"> 
+            <input type="submit" name="button" value="login">
+        </fieldset>
+    </form>
+    <input type="submit" value="login" form="myform1">
+</body>
+</html>
