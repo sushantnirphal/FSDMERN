@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSSTransformandTransitio</title>
+</head>
+ <style>
+    .hover-btn{
+        background-color: blue;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        font-size: 20px;
+    }
+    .hover-btn:hover{
+        background-color: red;
+        /* transition: background-color 1.5s ease-in-out , font-size 3s ease-in-out  ; */
+        transition:all 1.5s ease-in-out;
+        /* font-size: 30px; */
+        /* transform: translateX(50px) translateY(30px); */
+        transform: translate(50px,30px) scale(1.5) rotateY(340deg);
+            
+    }
+
+ </style>
+<body>
+    <button class="hover-btn">Hover me!</button>
+</body>
+</html>

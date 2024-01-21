@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 20px 10px;
+    color: brown;
+    width: 500px;
+    text-align: center;
+}
+
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    margin: 10px;
+    display: flex;
+}
+.flexb{
+    background-color: rgb(207,146,72);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.head1{
+    color:blue;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aqua;
+    margin: 20px 50px;
+    padding: 20px 50px;
+    border: 1px dotted red; 
+}

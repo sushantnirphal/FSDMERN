@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediaQueries&Responsivness</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    /* body{
+        background-color: red;
+    }
+
+    @media  Screen and (max-width:1000px) {
+        body{
+            background-color: blue;
+        }
+    @media  Screen and (max-width:500px) {
+        body{
+            background-color: rgb(0, 255, 162);
+        }
+    } */
+
+    nav ul {
+        background-color: black;
+        color: white;
+        display: flex;
+        list-style: none;
+        padding: 10px;
+        justify-content: flex-end;
+        gap: 25px;
+
+    }
+
+    nav ul li a {
+        font-size: 25px;
+        color: white;
+        text-decoration: none;
+       
+    }
+    @media screen and (max-width:500px) {
+        nav ul{
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    .gridContainer{
+        display:grid;
+        grid-gap:10px ;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .grid-item{
+        background-color: aqua;
+        padding: 20px;
+        font-size: 30px;
+       
+    }
+
+    @media screen and (min-width:800px) {
+        .gridContainer{
+            display:grid;
+        grid-gap:10px ;
+        grid-template-columns: repeat(3,1fr);
+        }
+    }
+</style>
+
+<body>
+
+    <!-- <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav> -->
+
+   
+    <div class="gridContainer">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+    </div>
+</body>
+
+</html>
