@@ -1,0 +1,26 @@
+node_modules/'],
+  testMatch: ['**/__tests__/**/*.js?(x)', '**/?(*.)+(spec|test).js?(x)'],
+  testPathIgnorePatterns: ['/node_modules/', '/dist/'],
+  testURL: 'http://localhost',
+  transform: {
+    '^.+\\.js$': 'babel-jest',
+  },
+  transformIgnorePatterns: ['/node_modules/'],
+  verbose: true,
+};
+
+package.json
+
+{
+  "name": "react-native-ble-plx",
+  "version": "1.0.0",
+  "description": "React Native Bluetooth Low Energy library using RxBluetoothKit and RxAndroidBle as it's backend libraries",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+
+
+    package-local.json
