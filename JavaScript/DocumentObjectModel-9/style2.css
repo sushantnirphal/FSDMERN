@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#parent-container{
+    margin: 30px;
+    height: 400px;
+    width: 300px;
+    
+    box-shadow: 2px 2px 2px 2px rgb(71, 58, 58);
+}
+
+        
+.card-container{
+    padding: 10px 10px ;
+    height: 300px;
+    width: 100%;
+    margin-bottom:160px ;
+}
+
+.card-container img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card-container span{
+    padding: 20px 0;
+    font-size: 20px;
+    font-weight: 400;
+}
