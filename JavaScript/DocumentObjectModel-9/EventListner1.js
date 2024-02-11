@@ -12,29 +12,29 @@ let value =0;
 
 
 
-// startButton.addEventListener('click',()=>{
-//    if( startButton.innerText === 'Start'){
-//         startButton.innerText ="Begin";
-//         startButton.innerHTML ="<span>Lets Start</span>"
-//    }else{
-//          startButton.innerText ="Start"
-//    }
-// });
+startButton.addEventListener('click',()=>{
+   if( startButton.innerText === 'Start'){
+        startButton.innerText ="Begin";
+        startButton.innerHTML ="<span>Lets Start</span>"
+   }else{
+         startButton.innerText ="Start"
+   }
+});
 
-// countButton.addEventListener('click',()=>{
-//     value++;
-//     console.log(value);
-// })
+countButton.addEventListener('click',()=>{
+    value++;
+    console.log(value);
+})
 
-// stopButton.addEventListener('click',()=>{
-//     // stopButton.classList.add("btn-red");
-//     stopButton.classList.toggle("btn-red")
-// })
+stopButton.addEventListener('click',()=>{
+    // stopButton.classList.add("btn-red");
+    stopButton.classList.toggle("btn-red")
+})
 
-// bodyButton.addEventListener('click',()=>{
-//     bodyButton.classList.toggle("body-color");
-//     console.log(bodyButton);
-// })
+bodyButton.addEventListener('click',()=>{
+    bodyButton.classList.toggle("body-color");
+    console.log(bodyButton);
+})
 
 
 
