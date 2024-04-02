@@ -1,0 +1,31 @@
+
+.country-container{
+    width: 300px;
+    border: 1px solid black;
+    height: 200px;
+    overflow-y: auto;
+}
+.input{
+    width: 100%;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.input:focus{
+    outline: none;
+}
+
+.container:hover{
+    cursor: pointer;
+}
+.name{
+    font-size: 1.5rem;
+}
+.name:hover{
+    cursor: pointer;
+}
+
+.hide{
+
+    display: none;
+}
